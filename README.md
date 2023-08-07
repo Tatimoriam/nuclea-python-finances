@@ -9,13 +9,8 @@ O projeto foi desenvolvimento em aula junto com a turma, o objetivo
 era desenvolver um CRUD simples de **cliente** e **ordens de clientes**, no
 caso ações.
 
-Um dos requisitos do projeto são validações e testes unitários.
-
----
-### O que mais tem neste projeto?
-
-O premissa é que o projeto inteiro seja desenvolvido utilizando 
-Programação Orientada a Objetos.
+Um dos requisitos do projeto são validações, testes unitários e 
+que o projeto inteiro seja desenvolvido utilizando Programação Orientada a Objetos.
 
 ---
 ### Rodar o Projeto
