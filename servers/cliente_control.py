@@ -69,7 +69,7 @@ class ClienteControl:
                 self.session.commit()
                 print("Cliente deletado com sucesso.")
             else:
-                print("CPF não encontrado")
+                print("CPF não encontrado", cliente)
 
         except Exception as err:
             return print("Não foi possível deletar: ", err)

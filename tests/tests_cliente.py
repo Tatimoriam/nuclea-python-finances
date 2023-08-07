@@ -71,7 +71,7 @@ class TestCliente(unittest.TestCase):
         self.assertEqual(cpf, cliente.cpf)
 
     def test_deletar_cliente(self):
-        cpf = '920.303.365-30'
+        cpf = '343.762.000-26'
 
         cli_bd = ClienteControl()
         cli_bd.deletar_cliente(cpf)

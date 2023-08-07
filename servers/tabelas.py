@@ -22,6 +22,7 @@ class ClienteServer(Base):
     cidade = mapped_column(String(30), nullable=False)
     estado = mapped_column(String(2), nullable=False)
     numero_residencia = mapped_column(String(10), nullable=False)
+    ordem = relationship('OrdemServer', cascade="all, delete-orphan")
 
 
 class OrdemServer(Base):
@@ -32,7 +33,7 @@ class OrdemServer(Base):
     valor_compra = mapped_column(Numeric(10), nullable=False)
     quantidade_compra = mapped_column(Numeric(5), nullable=False)
     data_compra = mapped_column(Date, nullable=False)
-    cliente_id = mapped_column(ForeignKey("cliente.id"))
+    cliente_id = mapped_column(ForeignKey("cliente.id", ondelete='CASCADE'))
 
 
 # cria tabelas

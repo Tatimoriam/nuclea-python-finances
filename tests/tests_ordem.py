@@ -17,10 +17,10 @@ class TestCliente(unittest.TestCase):
     # preencho ele manualmente nos testes
 
     def test_inserir_ordem(self):
-        cpf = '466.422.557-12'
+        cpf = '343.762.000-26'
 
         ordem = Ordem()
-        ordem.nome = "Itaúsa2"
+        ordem.nome = "Itaúsa"
         ordem.ticket = "ITSA4"
         ordem.valor_compra = 9.76
         ordem.quantidade_compra = 1
