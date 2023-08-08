@@ -5,17 +5,17 @@ em parceria com a [Núclea](https://www.linkedin.com/company/nucleabr/).
 
 ---
 ### Do que se trata o projeto?
-O projeto foi desenvolvimento em aula junto com a turma, o objetivo
+O projeto foi desenvolvido em aula junto com a turma. O objetivo
 era desenvolver um CRUD simples de **cliente** e **ordens de clientes**, no
-caso ações.
+caso, ações.
 
 Um dos requisitos do projeto são validações, testes unitários e 
 que o projeto inteiro seja desenvolvido utilizando Programação Orientada a Objetos.
 
 ---
 ### Rodar o Projeto
-Primeiramente eu utilizei o pacote [python-dotenv](https://pypi.org/project/python-dotenv/) 
-para configurar as variaveis de ambiente, crie um banco de dados PostgreSQL (banco de dados
+Neste projeto foi utilizado o pacote [python-dotenv](https://pypi.org/project/python-dotenv/) 
+para configurar as variáveis de ambiente, crie um banco de dados PostgreSQL (banco de dados
 utilizado nesta aplicação) e configure o arquivo `.env` (adicione a raiz do projeto) com os seguintes dados:
 ```env
 user=USUARIO_DO_BANCO
@@ -38,7 +38,7 @@ Depois disto é só rodar o projeto!
 
 ---
 ### Versão refatorada: qual a diferença?
-Esta versão é a refatorada, a desenvolvida em aula junto com o professor
+Esta versão é a refatorada, a versão desenvolvida em aula junto com o professor
 se encontra no repositorio [nuclea-python-financas](https://github.com/Tatimoriam/nuclea-python-financas).
 
 Os adendos são:
